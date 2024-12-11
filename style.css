@@ -347,6 +347,9 @@ footer .credit {
     min-width: unset;
     padding: 1rem 3%;
   }
+  .hero::after {
+    height: 20%;
+  }
   .navbar {
     padding: 0.5rem 5%;
     padding-top: 5rem;
