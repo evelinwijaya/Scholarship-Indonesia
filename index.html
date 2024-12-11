@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- bahwa code ini menggunkan bahasa pemogramman html -->
+<html lang="en">
+  <!-- bahasa yang digunakan adalah bahasa inggris -->
+  <head>
+    <!-- memuat informasi yang tidak terlihat tapi sangat penting untuk programme r-->
+    <meta charset="UTF-8" />
+    <!-- mengelompokkan tiap karakter (huruf, angka, dll) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- memastikan agar web terlihat baik di device manapun -->
+    <title>Scholarship Indonesia</title>
+    <!-- judul yang akan muncul di browser -->
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:
+    ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
+    900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&
+    display=swap"
+      rel="stylesheet"
+    />
+    <!--link (menghubungkan ke file yang ada di laptop) href (alamat file) rel (jenis file) preconnect (untuk menginfokan bahwa link ini penting)-->
+
+    <!-- menghubungkan dengan file  css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.surabaya.css" />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- link dibuat berbasis javascript -->
+  </head>
+
+  <body>
+    <!-- memuat informasi yang akan di tunjukkan ke user -->
+
+    <!-- navigasi bar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Scholarship<span>Indonesia</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+
+        <div class="dropdown">
+          <a href="#kota" class="dropdown-toggle">Kota <i data-feather="chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="surabaya.html">Surabaya</a></li>
+            <li><a href="jakarta.html">Jakarta</a></li>
+            <li><a href="malang.html">Malang</a></li>
+          </ul>
+        </div>
+        <a href="#kontak">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navigasi bar end -->
+
+    <!-- hero section start-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Let Us Be Part Of Your <span>Dream.</span></h1>
+        <p>Kami hadir sebagai penyedia informasi beasiswa swasta, yang terpercaya dan relevan</p>
+        <a href="#Indonesia" class="cta">Telusuri</a>
+      </main>
+    </section>
+    <!-- hero section end-->
+
+    <section id="Indonesia" class="surabaya">
+      <h2>Universitas Swasta Terbaik Di <span>Indonesia</span></h2>
+
+      <div class="row">
+        <div class="univ-list">
+          <a href="telkom.html"><img src="image/telkom.jpg" alt="telkom" /></a>
+          <a href="telkom.html"><h3 class="univ-list-name">-Universitas Telkom-</h3></a>
+          <p>Universitas ini terletak di Bandung, Malang, dan Surabaya. Universitas Telkom menempati peringkat 10 di Indonesia dan peringkat 1.201 di dunia menurut Webometrics 2024.</p>
+        </div>
+
+        <div class="univ-list">
+          <img src="image/binus.png" alt="binus" />
+          <a href="binus.html"><h3 class="univ-list-name">-Universitas Bina Nusantara-</h3></a>
+          <p>Universitas ini terletak di Jakarta, Bekasi, Bandung, dan Malang. Universitas Binus menmpati peringkat 13 di Indonesia dan peringkat 1.441 di dunia menurut Webometrics 2024.</p>
+        </div>
+
+        <div class="univ-list">
+          <img src="image/uad.jpg" alt="ahmad-dahlan" />
+          <a href="uad.html"><h3 class="univ-list-name">-Universitas Ahmad Dahlan-</h3></a>
+          <p>Universitas ini terletak di Yogyakarta. Universitas Ahmad Dahlan menempati peringkat 19 di Indonesia dan peringkat 1.857 di dunia menurut Webometrics 2024.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- tentang kami start-->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="image/tentangkami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Misi Kami</h3>
+          <p>Scholarship Indonesia hadir sebagai jembatan antara para pelajar dan kesempatan pendidikan terbaik. Kami percaya bahwa setiap individu berhak mendapatkan akses pendidikan berkualitas tanpa terkendala oleh batasan finansial.</p>
+          <h3>Visi Kami</h3>
+          <p>Menjadi platform terpercaya dan terlengkap untuk informasi beasiswa, serta membantu generasi muda Indonesia meraih impian mereka melalui pendidikan yang unggul.</p>
+        </div>
+      </div>
+    </section>
+    <!-- tentang kami end-->
+
+    <!-- kontak -->
+    <footer>
+      <div class="social" id="kontak">
+        <a href="https://www.instagram.com/evlwjy/profilecard/?igsh=MWNtMW9ndHBkd2huMA%3D%3D"><i data-feather="instagram"></i></a>
+        <a href=""><i data-feather="mail"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+      </div>
+
+      <div id="credit" class="credit">
+        <p>Created by <a href="">evelinwijaya</a>.| &copy;2024</p>
+      </div>
+    </footer>
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>

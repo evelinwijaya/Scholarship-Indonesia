@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  /* text-decoration: none; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(255, 253, 253);
+  color: rgb(98, 167, 227);
+  /* min-height: 1000px; */
+}
+
+.surabaya {
+  padding: 3rem 7% 1.4rem;
+}
+
+.surabaya h2 {
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.surabaya h2 span {
+  color: rgb(45, 103, 154);
+}
+
+.surabaya .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.surabaya .row .univ-list {
+  text-align: center;
+}
+
+.surabaya .row .univ-list img {
+  width: 80;
+}

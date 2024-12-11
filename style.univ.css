@@ -1,0 +1,58 @@
+/* warna yang akan digunakan */
+/* rgb(235, 241, 248) background navbar */
+/* rgb(98, 167, 227) font biru muda */
+/* rgb(45, 103, 154) font biru tua */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(255, 253, 253);
+  color: rgb(98, 167, 227);
+  line-height: 1.8rem;
+}
+
+.ciputra h2 {
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 3rem;
+  padding-top: 5rem;
+}
+
+.ciputra h2 span {
+  color: rgb(45, 103, 154);
+}
+
+.ciputra h3 {
+  color: rgb(45, 103, 154);
+  padding-left: 2rem;
+}
+
+.ciputra h4 {
+  padding-left: 2rem;
+}
+
+.ciputra p {
+  padding-left: 2rem;
+}
+
+.cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  color: rgb(98, 167, 227);
+  background-color: rgb(235, 241, 248);
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+}
