@@ -10,7 +10,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  right: 0;
+  position: relative;
 }
 
 body {
@@ -268,7 +268,7 @@ footer .credit {
   .navbar {
     padding: 1.5rem 5%;
   }
-  */ .navbar .navbar-nav {
+  .navbar .navbar-nav {
     position: absolute;
     top: 100%;
     right: -100%;
@@ -336,6 +336,6 @@ footer .credit {
 /* mobile */
 @media (max-width: 480px) {
   html {
-    font-size: 62.5%;
+    font-size: 55%;
   }
 }
