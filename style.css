@@ -10,7 +10,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  position: relative;
 }
 
 body {
@@ -225,7 +224,7 @@ footer {
 }
 
 footer .social {
-  padding: 1 rem 0;
+  padding: 1rem 0;
 }
 
 footer .social a {
@@ -260,7 +259,7 @@ footer .credit {
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   html {
     font-size: 62.5%;
   }
