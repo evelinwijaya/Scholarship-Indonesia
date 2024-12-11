@@ -265,10 +265,6 @@ footer .credit {
     font-size: 62.5%;
   }
 
-  .hero .content .cta {
-    display: none;
-  }
-
   .navbar {
     padding: 1.5rem 5%;
   }
@@ -350,6 +346,9 @@ footer .credit {
     width: 100%;
     min-width: unset;
     padding: 1rem 3%;
+  }
+  .hero .content .cta {
+    display: none;
   }
   .hero::after {
     height: 7%;
