@@ -30,6 +30,9 @@ body {
   margin-top: 5rem;
   line-height: 1.6rem;
   flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .ciputra h2 span {
