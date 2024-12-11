@@ -4,14 +4,13 @@
   box-sizing: border-box;
   outline: none;
   border: none;
-  /* text-decoration: none; */
+  text-decoration: none;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(255, 253, 253);
   color: rgb(98, 167, 227);
-  /* min-height: 1000px; */
 }
 
 .surabaya {
@@ -19,11 +18,10 @@ body {
 }
 
 .surabaya h2 {
-  padding-top: 3rem;
+  padding-top: 5rem;
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
-  text-align: center;
 }
 
 .surabaya h2 span {
@@ -44,4 +42,95 @@ body {
 
 .surabaya .row .univ-list img {
   width: 80;
+}
+
+/* media queris */
+
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .navbar {
+    padding: 1.5rem 5%;
+  }
+
+  .navbar .navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: rgb(235, 241, 248);
+    width: 30rem;
+    height: 100vh;
+    transition: 0.3s;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .navbar .navbar-nav.active {
+    right: 0;
+  }
+
+  .navbar .navbar-nav a {
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .navbar .navbar-extra {
+    display: block;
+  }
+
+  #hamburger-menu {
+    display: inline-block;
+  }
+
+  .dropdown-menu {
+    position: static;
+    display: none;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .dropdown.active .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-toggle {
+    position: relative;
+  }
+
+  .dropdown-menu li a {
+    padding: 0.5rem;
+    margin-left: 2rem;
+  }
+
+  .dropdown-toggle i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .about .row {
+    flex-wrap: wrap;
+  }
+}
+
+/* mobile */
+@media (max-width: 480px) {
+  html {
+    font-size: 55%;
+  }
 }

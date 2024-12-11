@@ -10,13 +10,13 @@
   outline: none;
   border: none;
   text-decoration: none;
-  scroll-behavior: smooth;
+  right: 0;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(255, 253, 253);
-  color: rgb(98, 167, 227);
+  color: rgb(0, 0, 0);
 }
 
 /* navigasi bar mulai */
@@ -54,7 +54,7 @@ body {
 .navbar .navbar-nav a {
   color: rgb(98, 167, 227);
   display: inline-block;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   margin: 0.6rem;
   font-weight: 500;
 }
@@ -178,8 +178,9 @@ body {
 
 .about h2 {
   text-align: center;
-  font-size: 2.6rem;
+  font-size: 3rem;
   margin-bottom: 3rem;
+  color: rgb(98, 167, 227);
 }
 
 .about .row {
@@ -203,15 +204,17 @@ body {
 }
 
 .about .row .content h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
+  color: rgb(98, 167, 227);
 }
 
 .about .row .content p {
   margin-bottom: 0.8rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.6;
+  color: rgb(98, 167, 227);
 }
 
 /* kontak */
@@ -248,7 +251,16 @@ footer .credit {
 }
 
 /* media queris */
-@media (max-width: 950px) {
+
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
   html {
     font-size: 62.5%;
   }
@@ -256,8 +268,7 @@ footer .credit {
   .navbar {
     padding: 1.5rem 5%;
   }
-
-  .navbar .navbar-nav {
+  */ .navbar .navbar-nav {
     position: absolute;
     top: 100%;
     right: -100%;
@@ -322,8 +333,9 @@ footer .credit {
   }
 }
 
+/* mobile */
 @media (max-width: 480px) {
   html {
-    font-size: 55%;
+    font-size: 62.5%;
   }
 }
